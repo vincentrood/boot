@@ -28,6 +28,19 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	
+	/* custom extra */
+	
+	.panel.color2 .fa-ul {
+    margin-left: 1.5rem;
+}
+
+	.maxhoogte {
+		height: 100%;
+	}
+	
+
+/* einde extra */
 
 body {
 	line-height: 1;
@@ -2201,7 +2214,7 @@ input, select, textarea {
 			/* custom */
 			.panel > *.color0 {
 				background-size: 128px 128px, auto;
-				background-color: rgb(197 83 83);
+				background-color: rgb(45 49 105 / 96%);
 			}
 
 			.panel > *.color1 {
@@ -2231,7 +2244,6 @@ input, select, textarea {
 			.panel > *.color4 {
 				/* background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)); */
 				background-size: 128px 128px, auto;
-				background-color: #c55353;
 			}
 
 			.panel > *.color1-alt {
@@ -2738,7 +2750,7 @@ input, select, textarea {
 		.panel.color2 {
 			/* background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)); */
 			background-size: 128px 128px, auto;
-			background-color: rgb(122 135 181);
+			background-color: rgb(119 32 32 / 95%);
 		}
 
 		.panel.color3 {
@@ -2774,7 +2786,7 @@ input, select, textarea {
 		.panel.color4-alt {
 			/* background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175)); */
 			background-size: 128px 128px, auto;
-			background-color: #c55353;
+			background-color: rgb(17 79 44 / 97%);
 		}
 
 	@media screen and (max-width: 736px) {
@@ -3227,7 +3239,7 @@ input, select, textarea {
 			.panel.color2 {
 			/*	background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)); */
 				background-size: 128px 128px, auto;
-				background-color: rgb(122 135 181);
+				background-color: rgb(119 32 32 / 95%);
 			}
 
 			.panel.color3 {
