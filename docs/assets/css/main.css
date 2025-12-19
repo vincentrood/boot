@@ -45,19 +45,27 @@ footer, header, hgroup, menu, nav, section {
 		background-color: rgb(255 255 255 / 57%) !important;
 		background-image: none !important;
 		}
+		
+	/* Groen */
+	.color3 {
+		background-color: rgb(24 85 40 / 95%) !important;
+		background-image: none !important;
+		}
+		
+	/* Nederland image */
 	
-		.gallery.nederland {
-    display: flex;
-    align-items: flex-end;
+	.gallery.nederland {
+		display: flex;
+		align-items: flex-end;
 }
 
-.gallery.nederland img {
-    height: auto!important;
-}
+	.gallery.nederland img {
+		height: auto!important;
+	}
 
-.gallery.nederland .image {
-	height: 30rem;
-}
+	.gallery.nederland .image {
+		height: 30rem;
+	}
 
 @media screen and (min-width: 736px) {
 		.inner.columns.aligned.nederland1 {
@@ -74,11 +82,7 @@ footer, header, hgroup, menu, nav, section {
 }
 }
 
-	/* Groen */
-	.color3 {
-		background-color: rgb(24 85 40 / 95%) !important;
-		background-image: none !important;
-		}
+
 		
 		
 		/* einde custom */
