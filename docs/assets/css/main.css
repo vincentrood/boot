@@ -51,12 +51,21 @@ footer, header, hgroup, menu, nav, section {
 	.color2 h2,
 	.color2 h3,
 	.color2 h4 {
-  color: #000000;
+		color: #000000;
+		}
 
-}
-
+	.color2 label {
+		color: #000000;
+		} 
+		
 	.color2 h1 {
 		  font-size: 2rem;
+	}
+	
+	.color2 input,
+	.color2 select,
+	.color2 textarea {
+		border: 2px solid rgb(0 0 0 / 25%)!important;
 	}
 
 
@@ -94,12 +103,17 @@ footer, header, hgroup, menu, nav, section {
 			text-align: right;
 		}
 	
-		.inner.columns.aligned.nederland1 {
+		.inner.columns.aligned.rechts {
 			padding-right: 0px;
 		}
 		
-		.inner.columns.aligned.nederland2 {
+		.inner.columns.aligned.links {
 			padding-left: 0px;
+		}
+		
+		.inner.columns.aligned.smal {
+			padding-left: 0px;
+			padding-right: 0px;
 		}
 /*		
 				.image.span-2-75.nederland {
