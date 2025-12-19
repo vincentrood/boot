@@ -59,6 +59,7 @@ footer, header, hgroup, menu, nav, section {
 		  font-size: 2rem;
 	}
 
+
 		
 	/* Groen */
 	.color3 {
@@ -78,7 +79,7 @@ footer, header, hgroup, menu, nav, section {
 	}
 
 	.gallery.nederland .image {
-		max-height: 28rem;
+		max-height: 25rem;
 	}
 	
 	.image.nederland {
@@ -87,6 +88,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @media screen and (min-width: 736px) {
+	
+
+		.nederland1 h2 {
+			text-align: right;
+		}
+	
 		.inner.columns.aligned.nederland1 {
 			padding-right: 0px;
 		}
@@ -109,8 +116,8 @@ footer, header, hgroup, menu, nav, section {
 
 .image.filtered:after {
 	background-image: none!important; 
+
 }
-		
 		
 		/* einde custom */
 
