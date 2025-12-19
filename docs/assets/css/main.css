@@ -66,6 +66,11 @@ footer, header, hgroup, menu, nav, section {
 	.gallery.nederland .image {
 		height: 30rem;
 	}
+	
+	.image.nederland {
+    max-width: 95%;
+    margin-right: 1rem;
+}
 
 @media screen and (min-width: 736px) {
 		.inner.columns.aligned.nederland1 {
