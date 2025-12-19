@@ -64,7 +64,7 @@ footer, header, hgroup, menu, nav, section {
 	}
 
 	.gallery.nederland .image {
-		height: 30rem;
+		max-height: 28rem;
 	}
 	
 	.image.nederland {
@@ -80,11 +80,12 @@ footer, header, hgroup, menu, nav, section {
 		.inner.columns.aligned.nederland2 {
 			padding-left: 0px;
 		}
-		
+/*		
 				.image.span-2-75.nederland {
-    height: 90%!important;
+    height: 100%!important;
 
 }
+*/
 }
 
 
