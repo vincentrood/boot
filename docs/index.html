@@ -20,7 +20,22 @@
 		
 		
 	</head>
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Controleer of de URL hash #bedankt bevat
+			if (window.location.hash === "#bedankt") {
+				// Toon het bedankbericht
+				const thankMessage = document.getElementById("bedanktbericht");
+				if (thankMessage) {
+					thankMessage.style.display = "block";
+				}
+			}
+		});
+	</script>
+	
 	<body class="is-preload">
+			
 
 
 		<!-- Page Wrapper -->
@@ -48,11 +63,11 @@
 									</li>
 									</ul>
 								</div>
-								<!--
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
+								
+								<div id="bedanktbericht" style="display: none;" class="intro color1 filtered span-2 color1">
+									<span><strong>Bedankt voor uw bericht, we nemen zo snel mogelijk contact met u op.</strong></span>
 								</div>
-								--> 
+								
 	
 							</section>
 							
