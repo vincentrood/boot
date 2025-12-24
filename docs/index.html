@@ -17,20 +17,22 @@
 
 		<meta name="robots" content="index, follow">
 		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				// Controleer of de URL hash #bedankt bevat
+				if (window.location.hash === "#bedankt") {
+					// Toon het bedankbericht
+					const thankMessage = document.getElementById("bedanktbericht");
+					if (thankMessage) {
+						thankMessage.style.display = "block";
+					}
+				}
+			});
+		</script>
 	</head>
 	
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			// Controleer of de URL hash #bedankt bevat
-			if (window.location.hash === "#bedankt") {
-				// Toon het bedankbericht
-				const thankMessage = document.getElementById("bedanktbericht");
-				if (thankMessage) {
-					thankMessage.style.display = "block";
-				}
-			}
-		});
-	</script>
+
 	
 	<body class="is-preload">
 			
@@ -162,12 +164,15 @@
 												<input type="text" name="_honey" style="display:none">
 												
 												
-											</div>
-											<ul class="actions">
-												<li><input type="submit" value="Versturen" class="button primary" /></li>
-											</ul>
-										</form>
-									</div>
+												  <!-- Google reCAPTCHA -->
+													<div class="g-recaptcha" data-sitekey="6LdvqDUsAAAAAGXXVzouUrHVC7Y2he_IWNtDgvGi"></div>
+
+													<ul class="actions">
+														<li><input type="submit" value="Versturen" class="button primary" /></li>
+													</ul>
+												</form>
+
+
 																			<!-- dit zijn de socials die we nog niet hebben
 									<div class="span-1-5">
 										<ul class="contact-icons color1">
@@ -197,6 +202,17 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<!-- Voeg dit script onderaan je pagina, net voor </body> -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    if (grecaptcha.getResponse() === "") {
+        alert("Vul de reCAPTCHA in om het formulier te verzenden.");
+        e.preventDefault(); // stopt het formulier
+    }
+});
+</script>
 
 	</body>
 </html>
