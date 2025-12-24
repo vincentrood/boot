@@ -134,22 +134,23 @@
 										<form action="https://formsubmit.co/dichtbijboot@gmail.com" method="POST">
 										<input type="hidden" name="_next" value="https://vincentrood.github.io/boot/#bedankt">
 										<input type="hidden" name="_captcha" value="false">
+										<input type="text" name="_honey" style="display:none">
 											<div class="fields">
 												<div class="field quarter">
-													<label for="name">Naam</label>
-													<input type="text" name="name" id="name" />
+													<label for="name">Naam *</label>
+													<input type="text" name="name" id="name" required/>
 												</div>
 												<div class="field quarter">
-													<label for="adres">Adres</label>
-													<input type="text" name="adres" id="adres" />
+													<label for="adres">Adres *</label>
+													<input type="text" name="adres" id="adres" required/>
 												</div>
 												<div class="field quarter">
-													<label for="postcode">Postcode</label>
-													<input type="text" name="postcode" id="postcode" />
+													<label for="postcode">Postcode *</label>
+													<input type="text" name="postcode" id="postcode" required/>
 												</div>
 												<div class="field quarter">
-													<label for="email">Email</label>
-													<input type="email" name="email" id="email" />
+													<label for="email">Email *</label>
+													<input type="email" name="email" id="email" required/>
 												</div>
 												<div class="field half">
 													<label for="message">Omschrijf route</label>
