@@ -1,4 +1,5 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://dichtbijboot.nl/sitemap.xml
+
+Sitemap: http://begeleidingsboot.nl/sitemap.xml
