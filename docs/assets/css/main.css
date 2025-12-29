@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	/* Blauw */
 	.color0 {
-		background-color: rgb(45 49 105 / 96%)!important;
+		background-color: rgb(0 0 0 / 77%) !important;
 		background-image: none !important;
 	}
 	/* Rood */
@@ -45,12 +45,19 @@ footer, header, hgroup, menu, nav, section {
 		background-color: rgb(119 32 32 / 95%)!important;
 		background-image: none !important;
 		}
-	/* Grijs */	
+		
+		
+	/* Wit */	
 	.color2 {
-		background-color: rgb(225 225 225 / 97%) !important;
+		background-color: rgb(255 255 255) !important;
 		background-image: none !important;
 		color: #000000;
 		}
+		
+	.color2 strong, b, label{
+    color: rgb(0 0 0)!important;
+    font-weight: 400!important;
+}
 		
 	.color2 h1,
 	.color2 h2,
